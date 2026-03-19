@@ -1,0 +1,150 @@
+{
+  "departments": [
+    {"name": "Engineering", "budget": 500000},
+    {"name": "Data Science", "budget": 350000},
+    {"name": "Product", "budget": 200000}
+  ],
+  "technologies": [
+    {"name": "Python", "category": "language"},
+    {"name": "JavaScript", "category": "language"},
+    {"name": "TypeScript", "category": "language"},
+    {"name": "Go", "category": "language"},
+    {"name": "React", "category": "framework"},
+    {"name": "FastAPI", "category": "framework"},
+    {"name": "Neo4j", "category": "database"},
+    {"name": "PostgreSQL", "category": "database"},
+    {"name": "Redis", "category": "database"},
+    {"name": "Docker", "category": "tool"},
+    {"name": "Kubernetes", "category": "tool"},
+    {"name": "AWS", "category": "cloud"},
+    {"name": "TensorFlow", "category": "framework"},
+    {"name": "LangChain", "category": "framework"}
+  ],
+  "persons": [
+    {"name": "Mehmet Kaya", "role": "Engineering Manager", "email": "mehmet@company.com"},
+    {"name": "Ahmet Yılmaz", "role": "Senior Backend Developer", "email": "ahmet@company.com"},
+    {"name": "Elif Demir", "role": "Data Scientist", "email": "elif@company.com"},
+    {"name": "Zeynep Arslan", "role": "Full Stack Developer", "email": "zeynep@company.com"},
+    {"name": "Can Öztürk", "role": "DevOps Engineer", "email": "can@company.com"},
+    {"name": "Ayşe Çelik", "role": "ML Engineer", "email": "ayse@company.com"},
+    {"name": "Burak Şahin", "role": "Frontend Developer", "email": "burak@company.com"},
+    {"name": "Deniz Yıldız", "role": "Product Manager", "email": "deniz@company.com"}
+  ],
+  "projects": [
+    {
+      "name": "Data Pipeline",
+      "status": "active",
+      "description": "Real-time data processing pipeline for analytics",
+      "start_date": "2024-01-15",
+      "department": "Engineering",
+      "technologies": [
+        {"name": "Python", "purpose": "core processing logic"},
+        {"name": "FastAPI", "purpose": "REST API layer"},
+        {"name": "PostgreSQL", "purpose": "primary data store"},
+        {"name": "Redis", "purpose": "caching and message queue"},
+        {"name": "Docker", "purpose": "containerization"}
+      ]
+    },
+    {
+      "name": "ML Platform",
+      "status": "active",
+      "description": "Internal machine learning model training and deployment platform",
+      "start_date": "2024-03-01",
+      "department": "Data Science",
+      "technologies": [
+        {"name": "Python", "purpose": "model development"},
+        {"name": "TensorFlow", "purpose": "deep learning framework"},
+        {"name": "FastAPI", "purpose": "model serving API"},
+        {"name": "Docker", "purpose": "containerization"},
+        {"name": "AWS", "purpose": "cloud infrastructure"},
+        {"name": "Kubernetes", "purpose": "orchestration"}
+      ]
+    },
+    {
+      "name": "Customer Portal",
+      "status": "active",
+      "description": "Customer-facing web application",
+      "start_date": "2024-06-01",
+      "department": "Engineering",
+      "technologies": [
+        {"name": "TypeScript", "purpose": "type-safe development"},
+        {"name": "React", "purpose": "frontend framework"},
+        {"name": "FastAPI", "purpose": "backend API"},
+        {"name": "PostgreSQL", "purpose": "data persistence"},
+        {"name": "AWS", "purpose": "hosting"}
+      ]
+    },
+    {
+      "name": "Knowledge Graph Assistant",
+      "status": "planned",
+      "description": "AI assistant powered by knowledge graph and LLM",
+      "start_date": "2025-01-01",
+      "department": "Data Science",
+      "technologies": [
+        {"name": "Python", "purpose": "backend development"},
+        {"name": "Neo4j", "purpose": "knowledge graph storage"},
+        {"name": "LangChain", "purpose": "LLM orchestration"}
+      ]
+    },
+    {
+      "name": "Infrastructure Automation",
+      "status": "completed",
+      "description": "CI/CD pipeline and infrastructure as code setup",
+      "start_date": "2023-09-01",
+      "department": "Engineering",
+      "technologies": [
+        {"name": "Go", "purpose": "custom tooling"},
+        {"name": "Docker", "purpose": "containerization"},
+        {"name": "Kubernetes", "purpose": "orchestration"},
+        {"name": "AWS", "purpose": "cloud platform"}
+      ]
+    }
+  ],
+  "works_on": [
+    {"person": "Ahmet Yılmaz", "project": "Data Pipeline", "since": "2024-01-15", "role": "tech lead"},
+    {"person": "Ahmet Yılmaz", "project": "Knowledge Graph Assistant", "since": "2025-01-01", "role": "developer"},
+    {"person": "Elif Demir", "project": "ML Platform", "since": "2024-03-01", "role": "lead data scientist"},
+    {"person": "Elif Demir", "project": "Knowledge Graph Assistant", "since": "2025-01-01", "role": "data scientist"},
+    {"person": "Zeynep Arslan", "project": "Customer Portal", "since": "2024-06-01", "role": "full stack developer"},
+    {"person": "Zeynep Arslan", "project": "Data Pipeline", "since": "2024-04-01", "role": "backend developer"},
+    {"person": "Can Öztürk", "project": "Infrastructure Automation", "since": "2023-09-01", "role": "lead engineer"},
+    {"person": "Can Öztürk", "project": "ML Platform", "since": "2024-05-01", "role": "devops"},
+    {"person": "Ayşe Çelik", "project": "ML Platform", "since": "2024-03-15", "role": "ml engineer"},
+    {"person": "Burak Şahin", "project": "Customer Portal", "since": "2024-06-01", "role": "frontend developer"},
+    {"person": "Deniz Yıldız", "project": "Customer Portal", "since": "2024-06-01", "role": "product owner"},
+    {"person": "Deniz Yıldız", "project": "Knowledge Graph Assistant", "since": "2025-01-01", "role": "product manager"}
+  ],
+  "reports_to": [
+    {"person": "Ahmet Yılmaz", "manager": "Mehmet Kaya"},
+    {"person": "Zeynep Arslan", "manager": "Mehmet Kaya"},
+    {"person": "Can Öztürk", "manager": "Mehmet Kaya"},
+    {"person": "Burak Şahin", "manager": "Mehmet Kaya"},
+    {"person": "Elif Demir", "manager": "Mehmet Kaya"},
+    {"person": "Ayşe Çelik", "manager": "Elif Demir"},
+    {"person": "Deniz Yıldız", "manager": "Mehmet Kaya"}
+  ],
+  "has_skill": [
+    {"person": "Ahmet Yılmaz", "technology": "Python", "level": "expert"},
+    {"person": "Ahmet Yılmaz", "technology": "FastAPI", "level": "expert"},
+    {"person": "Ahmet Yılmaz", "technology": "PostgreSQL", "level": "intermediate"},
+    {"person": "Ahmet Yılmaz", "technology": "Docker", "level": "intermediate"},
+    {"person": "Ahmet Yılmaz", "technology": "Neo4j", "level": "beginner"},
+    {"person": "Elif Demir", "technology": "Python", "level": "expert"},
+    {"person": "Elif Demir", "technology": "TensorFlow", "level": "expert"},
+    {"person": "Elif Demir", "technology": "LangChain", "level": "intermediate"},
+    {"person": "Zeynep Arslan", "technology": "TypeScript", "level": "expert"},
+    {"person": "Zeynep Arslan", "technology": "React", "level": "expert"},
+    {"person": "Zeynep Arslan", "technology": "Python", "level": "intermediate"},
+    {"person": "Zeynep Arslan", "technology": "FastAPI", "level": "intermediate"},
+    {"person": "Can Öztürk", "technology": "Docker", "level": "expert"},
+    {"person": "Can Öztürk", "technology": "Kubernetes", "level": "expert"},
+    {"person": "Can Öztürk", "technology": "AWS", "level": "expert"},
+    {"person": "Can Öztürk", "technology": "Go", "level": "intermediate"},
+    {"person": "Ayşe Çelik", "technology": "Python", "level": "expert"},
+    {"person": "Ayşe Çelik", "technology": "TensorFlow", "level": "intermediate"},
+    {"person": "Ayşe Çelik", "technology": "Docker", "level": "beginner"},
+    {"person": "Burak Şahin", "technology": "JavaScript", "level": "expert"},
+    {"person": "Burak Şahin", "technology": "TypeScript", "level": "expert"},
+    {"person": "Burak Şahin", "technology": "React", "level": "expert"}
+  ]
+}
